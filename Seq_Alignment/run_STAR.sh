@@ -14,4 +14,9 @@ GENOME_FASTA='/domus/h1/ngyz96/Rattus_norvegicus.Rnor_6.0.dna.toplevel.fa'
 GENOME_DIR='/proj/snic2019-8-250/RNOR_STAR_GENOME'
 GENOME_GTF='/domus/h1/ngyz96/Rattus_norvegicus.Rnor_6.0.98.gtf'
 
-STAR --runThreadN 5 --runMode genomeGenerate --genomeDir ${GENOME_DIR} --genomeFastaFiles ${GENOME_FASTA} --sjdbGTFfile ${GENOME_GTF} 
+STAR \
+--runThreadN 5 \
+--runMode genomeGenerate \
+--genomeDir ${GENOME_DIR} \
+--genomeFastaFiles ${GENOME_FASTA} \
+--sjdbGTFfile ${GENOME_GTF} 
