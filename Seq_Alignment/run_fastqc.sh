@@ -10,3 +10,7 @@ module unload
 module load bioinfo-tools
 module load FastQC/0.11.8
 find /proj/uppstore2019102/ESCG_data/ -type f -name "P13104_1000?_S?_L00?_R?_001.fastq.gz" -print0 | xargs -0  -n 1 fastqc --outdir=/home/ngyz96/fastqc_result
+cd /home/ngyz96/fastqc_result/
+
+module load MultiQC/1.7
+multiqc .
