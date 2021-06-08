@@ -1,4 +1,4 @@
-# KI Bioinfo project
+# KI bioinfomatics project
 ## Scripts for scRNA-seq data analysis
 
 This repository contains all the scripts written as part of Biomedical Project for Exchange students (30 ECTS) at Karolinska Institutet during Fall 2019.
